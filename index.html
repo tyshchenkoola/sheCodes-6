@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forecast</title>
+    <link rel="stylesheet" href="./style/styles.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="city-search">
+          <input class="enter-city-input" type="text" placeholder="Enter a city..." />
+          <button class="search-button">Search</button>
+          <button id="currentLocationButton">Current Location</button>
+        </div>
+      </header>
+
+      <main>
+        <div class="main-info">
+          <div class="precipitation">
+            <ul>
+              <li>Precipitation: 4%</li>
+              <li>Humidity: 73%</li>
+              <li>Wind: 8 km/h</li>
+            </ul>
+          </div>
+
+          <div class="current-weather">
+            <div class="date-current">
+              <p class="date-info">22.06.2023</p>
+            </div>
+            
+            <div class="city-current">
+              <p class="city-info">Lviv</p>
+            </div>
+
+            <div class="current-temperature">
+                <p class="weather-info">+26℃</p>
+            </div>
+        
+          </div>
+        </div>
+   
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <div class="weather-diagram">
+              
+                    <p class="diagram-temperature-1">23℃</p>
+                     <img class="diagram-photo photo-1" src="./img/diagram.jpg" alt="diagram">
+                   
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="weather-diagram">
+                    
+                    <p class="diagram-temperature-2">20℃</p>
+                    <img class="diagram-photo photo-2" src="./img/diagram.jpg" alt="diagram">
+                    
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="weather-diagram">
+                    
+                    <p class="diagram-temperature-3">18℃</p>
+                    <img class="diagram-photo photo-3" src="./img/diagram.jpg" alt="diagram">
+                   
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="weather-diagram">
+                    
+                    <p class="diagram-temperature-4">23℃</p>
+                    <img class="diagram-photo photo-4" src="./img/diagram.jpg" alt="diagram">
+                   
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="weather-diagram">
+                    
+                    <p class="diagram-temperature-5">28℃</p>
+                    <img class="diagram-photo photo-5" src="./img/diagram.jpg" alt="diagram">
+                    
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="weather-diagram">
+                    
+                    <p>29℃</p>
+                    <img class="diagram-photo photo-6" src="./img/diagram.jpg" alt="diagram">
+              
+                </div>
+            </div>
+        </div>
+    
+
+        <ul class="time-diagram">
+          <li class="time-item">01:00</li>
+          <li class="time-item">04:00</li>
+          <li class="time-item">07:00</li>
+          <li class="time-item">10:00</li>
+          <li class="time-item">13:00</li>
+          <li class="time-item">16:00</li>
+        </ul>    
+      </main>
+
+      <footer>
+
+        <ul class="day-forecast">
+          <li class="day">Fri</li>
+          <li class="day">Sat</li>
+          <li class="day">Sun</li>
+          <li class="day">Mon</li>
+          <li class="day">Tue</li>
+          <li class="day">Wed</li>
+          <li class="day">Thur</li>
+        </ul>   
+
+        <div class="img-forecast">
+          <img width="70px" src="./img/image.png" alt="">
+          <img width="60px" src="./img/image (1).png" alt="">
+          <img width="60px" src="./img/image (1).png" alt="">
+          <img width="70px" src="./img/image (2).png" alt="">
+          <img width="70px" src="./img/image.png" alt="">
+          <img width="60px" src="./img/image (1).png" alt="">
+          <img width="70px" src="./img/image (2).png" alt="">
+        </div>
+
+         <ul class="temperature-forecast">
+          <li class="temp-day"><span>30° </span>18°</li>
+          <li class="temp-day"><span>20° </span>13°</li>
+          <li class="temp-day"><span>21° </span>13°</li>
+          <li class="temp-day"><span>24° </span>13°</li>
+          <li class="temp-day"><span>24° </span>13°</li>
+          <li class="temp-day"><span>21° </span>13°</li>
+          <li class="temp-day"><span>23° </span>15°</li>
+        </ul> 
+
+      </footer>
+      
+    </div>
+   
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
